@@ -1,0 +1,108 @@
+Generated Flights:
+Airplane: Airplane 1
+	Riga -> Ventspils 	| Airplane 1 	| Pilot 7 	| 08 Oct 24 19:08 EEST
+	Ventspils -> Liepāja 	| Airplane 1 	| Pilot 6 	| 09 Oct 24 03:08 EEST
+	Liepāja -> Ventspils 	| Airplane 1 	| Pilot 1 	| 09 Oct 24 05:08 EEST
+	Ventspils -> Liepāja 	| Airplane 1 	| Pilot 2 	| 10 Oct 24 09:08 EEST
+	Liepāja -> Riga 	| Airplane 1 	| Pilot 3 	| 10 Oct 24 15:08 EEST
+	Riga -> Daugavpils 	| Airplane 1 	| Pilot 6 	| 11 Oct 24 01:08 EEST
+	Daugavpils -> Liepāja 	| Airplane 1 	| Pilot 9 	| 11 Oct 24 07:08 EEST
+	Liepāja -> Riga 	| Airplane 1 	| Pilot 6 	| 11 Oct 24 09:08 EEST
+	Riga -> Daugavpils 	| Airplane 1 	| Pilot 4 	| 11 Oct 24 21:08 EEST
+Airplane: Airplane 2
+	Liepāja -> Riga 	| Airplane 2 	| Pilot 10 	| 08 Oct 24 17:08 EEST
+	Riga -> Liepāja 	| Airplane 2 	| Pilot 4 	| 09 Oct 24 11:08 EEST
+	Liepāja -> Riga 	| Airplane 2 	| Pilot 9 	| 09 Oct 24 17:08 EEST
+	Riga -> Liepāja 	| Airplane 2 	| Pilot 10 	| 09 Oct 24 19:08 EEST
+	Liepāja -> Daugavpils 	| Airplane 2 	| Pilot 9 	| 10 Oct 24 03:08 EEST
+	Daugavpils -> Jelgava 	| Airplane 2 	| Pilot 3 	| 10 Oct 24 05:08 EEST
+	Jelgava -> Daugavpils 	| Airplane 2 	| Pilot 10 	| 10 Oct 24 19:08 EEST
+	Daugavpils -> Liepāja 	| Airplane 2 	| Pilot 2 	| 10 Oct 24 23:08 EEST
+	Liepāja -> Daugavpils 	| Airplane 2 	| Pilot 2 	| 11 Oct 24 05:08 EEST
+	Daugavpils -> Liepāja 	| Airplane 2 	| Pilot 2 	| 11 Oct 24 13:08 EEST
+	Liepāja -> Daugavpils 	| Airplane 2 	| Pilot 6 	| 11 Oct 24 17:08 EEST
+	Daugavpils -> Ventspils 	| Airplane 2 	| Pilot 10 	| 11 Oct 24 19:08 EEST
+	Ventspils -> Liepāja 	| Airplane 2 	| Pilot 1 	| 11 Oct 24 23:08 EEST
+	Liepāja -> Riga 	| Airplane 2 	| Pilot 6 	| 12 Oct 24 01:08 EEST
+Airplane: Airplane 3
+	Riga -> Jelgava 	| Airplane 3 	| Pilot 4 	| 08 Oct 24 23:08 EEST
+	Jelgava -> Liepāja 	| Airplane 3 	| Pilot 9 	| 09 Oct 24 07:08 EEST
+	Liepāja -> Jelgava 	| Airplane 3 	| Pilot 1 	| 09 Oct 24 23:08 EEST
+	Jelgava -> Ventspils 	| Airplane 3 	| Pilot 7 	| 10 Oct 24 13:08 EEST
+	Ventspils -> Liepāja 	| Airplane 3 	| Pilot 8 	| 10 Oct 24 17:08 EEST
+	Liepāja -> Jelgava 	| Airplane 3 	| Pilot 10 	| 11 Oct 24 03:08 EEST
+	Jelgava -> Ventspils 	| Airplane 3 	| Pilot 7 	| 11 Oct 24 11:08 EEST
+	Ventspils -> Liepāja 	| Airplane 3 	| Pilot 9 	| 11 Oct 24 15:08 EEST
+	Liepāja -> Jelgava 	| Airplane 3 	| Pilot 5 	| 12 Oct 24 05:08 EEST
+	Jelgava -> Liepāja 	| Airplane 3 	| Pilot 2 	| 12 Oct 24 07:08 EEST
+Airplane: Airplane 4
+	Liepāja -> Daugavpils 	| Airplane 4 	| Pilot 1 	| 08 Oct 24 21:08 EEST
+	Daugavpils -> Liepāja 	| Airplane 4 	| Pilot 9 	| 09 Oct 24 01:08 EEST
+	Liepāja -> Riga 	| Airplane 4 	| Pilot 2 	| 09 Oct 24 09:08 EEST
+	Riga -> Liepāja 	| Airplane 4 	| Pilot 7 	| 09 Oct 24 13:08 EEST
+	Liepāja -> Ventspils 	| Airplane 4 	| Pilot 2 	| 09 Oct 24 15:08 EEST
+	Ventspils -> Liepāja 	| Airplane 4 	| Pilot 10 	| 09 Oct 24 21:08 EEST
+	Liepāja -> Riga 	| Airplane 4 	| Pilot 5 	| 10 Oct 24 01:08 EEST
+	Riga -> Liepāja 	| Airplane 4 	| Pilot 8 	| 10 Oct 24 07:08 EEST
+	Liepāja -> Ventspils 	| Airplane 4 	| Pilot 5 	| 10 Oct 24 11:08 EEST
+	Ventspils -> Liepāja 	| Airplane 4 	| Pilot 4 	| 10 Oct 24 21:08 EEST
+	Liepāja -> Riga 	| Airplane 4 	| Pilot 1 	| 12 Oct 24 03:08 EEST
+Initial Conflicts: 6255
+
+Optimized Flights:
+Pilot: Pilot 1
+	 Riga -> Ventspils 	| Airplane 1 	| 08 Oct 24 19:08 EEST
+	 Liepāja -> Ventspils 	| Airplane 1 	| 09 Oct 24 05:08 EEST
+	 Ventspils -> Liepāja 	| Airplane 4 	| 09 Oct 24 21:08 EEST
+	 Ventspils -> Liepāja 	| Airplane 2 	| 11 Oct 24 23:08 EEST
+	 Liepāja -> Riga 	| Airplane 4 	| 12 Oct 24 03:08 EEST
+Pilot: Pilot 2
+	 Riga -> Liepāja 	| Airplane 2 	| 09 Oct 24 11:08 EEST
+	 Liepāja -> Ventspils 	| Airplane 4 	| 09 Oct 24 15:08 EEST
+	 Ventspils -> Liepāja 	| Airplane 1 	| 10 Oct 24 09:08 EEST
+	 Daugavpils -> Liepāja 	| Airplane 2 	| 10 Oct 24 23:08 EEST
+	 Liepāja -> Daugavpils 	| Airplane 2 	| 11 Oct 24 05:08 EEST
+	 Daugavpils -> Liepāja 	| Airplane 2 	| 11 Oct 24 13:08 EEST
+	 Liepāja -> Jelgava 	| Airplane 3 	| 12 Oct 24 05:08 EEST
+Pilot: Pilot 3
+	 Liepāja -> Riga 	| Airplane 4 	| 10 Oct 24 01:08 EEST
+	 Jelgava -> Daugavpils 	| Airplane 2 	| 10 Oct 24 19:08 EEST
+Pilot: Pilot 4
+	 Daugavpils -> Liepāja 	| Airplane 4 	| 09 Oct 24 01:08 EEST
+	 Liepāja -> Riga 	| Airplane 4 	| 09 Oct 24 09:08 EEST
+	 Ventspils -> Liepāja 	| Airplane 4 	| 10 Oct 24 21:08 EEST
+	 Riga -> Daugavpils 	| Airplane 1 	| 11 Oct 24 21:08 EEST
+Pilot: Pilot 5
+	 Liepāja -> Jelgava 	| Airplane 3 	| 09 Oct 24 23:08 EEST
+	 Jelgava -> Ventspils 	| Airplane 3 	| 10 Oct 24 13:08 EEST
+	 Jelgava -> Liepāja 	| Airplane 3 	| 12 Oct 24 07:08 EEST
+Pilot: Pilot 6
+	 Ventspils -> Liepāja 	| Airplane 1 	| 09 Oct 24 03:08 EEST
+	 Riga -> Daugavpils 	| Airplane 1 	| 11 Oct 24 01:08 EEST
+	 Daugavpils -> Liepāja 	| Airplane 1 	| 11 Oct 24 07:08 EEST
+	 Liepāja -> Daugavpils 	| Airplane 2 	| 11 Oct 24 17:08 EEST
+	 Liepāja -> Riga 	| Airplane 2 	| 12 Oct 24 01:08 EEST
+Pilot: Pilot 7
+	 Liepāja -> Daugavpils 	| Airplane 4 	| 08 Oct 24 21:08 EEST
+	 Riga -> Liepāja 	| Airplane 4 	| 09 Oct 24 13:08 EEST
+	 Liepāja -> Ventspils 	| Airplane 4 	| 10 Oct 24 11:08 EEST
+	 Liepāja -> Riga 	| Airplane 1 	| 11 Oct 24 09:08 EEST
+Pilot: Pilot 8
+	 Riga -> Liepāja 	| Airplane 4 	| 10 Oct 24 07:08 EEST
+	 Liepāja -> Riga 	| Airplane 1 	| 10 Oct 24 15:08 EEST
+Pilot: Pilot 9
+	 Riga -> Jelgava 	| Airplane 3 	| 08 Oct 24 23:08 EEST
+	 Jelgava -> Liepāja 	| Airplane 3 	| 09 Oct 24 07:08 EEST
+	 Liepāja -> Riga 	| Airplane 2 	| 09 Oct 24 17:08 EEST
+	 Daugavpils -> Jelgava 	| Airplane 2 	| 10 Oct 24 05:08 EEST
+	 Jelgava -> Ventspils 	| Airplane 3 	| 11 Oct 24 11:08 EEST
+	 Ventspils -> Liepāja 	| Airplane 3 	| 11 Oct 24 15:08 EEST
+Pilot: Pilot 10
+	 Liepāja -> Riga 	| Airplane 2 	| 08 Oct 24 17:08 EEST
+	 Riga -> Liepāja 	| Airplane 2 	| 09 Oct 24 19:08 EEST
+	 Liepāja -> Daugavpils 	| Airplane 2 	| 10 Oct 24 03:08 EEST
+	 Ventspils -> Liepāja 	| Airplane 3 	| 10 Oct 24 17:08 EEST
+	 Liepāja -> Jelgava 	| Airplane 3 	| 11 Oct 24 03:08 EEST
+	 Daugavpils -> Ventspils 	| Airplane 2 	| 11 Oct 24 19:08 EEST
+TabuSearch execution time: 2.3423693s
+Optimized Conflicts: 4125

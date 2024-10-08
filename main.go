@@ -224,7 +224,7 @@ func TabuSearch(flights []Flight, pilots []Pilot, maxIterations int, tabuTenure 
 
 	// Helper function to generate a key for the flight for tabu check
 	generateTabuKey := func(flight Flight) string {
-		return flight.FirstPilot.Name
+		return flight.FirstPilot.Name + string(flight.Airplane) + flight.Time.Format(time.RFC3339)
 	}
 
 	// Make a move by swapping pilots between flights with adjacent or same times
@@ -294,17 +294,17 @@ func TabuSearch(flights []Flight, pilots []Pilot, maxIterations int, tabuTenure 
 
 func main() {
 
-	seed := int64(63)
-	rand.Seed(seed) // Set the seed for reproducible results
+	seed := rand.Intn(40) + 10
+	rand.Seed(int64(seed)) // Set the seed for reproducible results
 
 	cities := GenerateCities()
 	airplanes := GenerateAirplanes()
-	pilots := GeneratePilots(10)
+	pilots := GeneratePilots(8)
 
-	flights := GenerateFlights(cities, airplanes, pilots, 30)
+	flights := GenerateFlights(cities, airplanes, pilots, seed)
 
 	// Create a file to save the results
-	filename := fmt.Sprintf("results_seed_%d.txt", seed)
+	filename := fmt.Sprintf("results_seed_%d_%d.txt", seed, len(pilots))
 	file, err := os.Create(filename)
 	if err != nil {
 		fmt.Println("Error creating file:", err)
