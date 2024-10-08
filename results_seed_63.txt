@@ -1,0 +1,80 @@
+Generated Flights:
+Airplane: Airplane 1
+	Riga -> Liepāja 	| Airplane 1 	| Pilot 3 	| 08 Oct 24 18:47 EEST
+	Liepāja -> Riga 	| Airplane 1 	| Pilot 10 	| 08 Oct 24 22:47 EEST
+	Riga -> Daugavpils 	| Airplane 1 	| Pilot 4 	| 09 Oct 24 08:47 EEST
+	Daugavpils -> Liepāja 	| Airplane 1 	| Pilot 4 	| 09 Oct 24 10:47 EEST
+	Liepāja -> Jelgava 	| Airplane 1 	| Pilot 8 	| 09 Oct 24 14:47 EEST
+	Jelgava -> Liepāja 	| Airplane 1 	| Pilot 3 	| 09 Oct 24 16:47 EEST
+	Liepāja -> Daugavpils 	| Airplane 1 	| Pilot 9 	| 09 Oct 24 20:47 EEST
+	Daugavpils -> Liepāja 	| Airplane 1 	| Pilot 4 	| 10 Oct 24 06:47 EEST
+	Liepāja -> Jelgava 	| Airplane 1 	| Pilot 10 	| 10 Oct 24 08:47 EEST
+	Jelgava -> Daugavpils 	| Airplane 1 	| Pilot 9 	| 10 Oct 24 12:47 EEST
+Airplane: Airplane 2
+	Liepāja -> Riga 	| Airplane 2 	| Pilot 1 	| 09 Oct 24 12:47 EEST
+	Riga -> Ventspils 	| Airplane 2 	| Pilot 9 	| 09 Oct 24 18:47 EEST
+	Ventspils -> Liepāja 	| Airplane 2 	| Pilot 9 	| 10 Oct 24 04:47 EEST
+	Liepāja -> Ventspils 	| Airplane 2 	| Pilot 8 	| 10 Oct 24 10:47 EEST
+	Ventspils -> Liepāja 	| Airplane 2 	| Pilot 5 	| 10 Oct 24 14:47 EEST
+	Liepāja -> Riga 	| Airplane 2 	| Pilot 9 	| 10 Oct 24 20:47 EEST
+Airplane: Airplane 3
+	Riga -> Liepāja 	| Airplane 3 	| Pilot 4 	| 08 Oct 24 12:47 EEST
+	Liepāja -> Riga 	| Airplane 3 	| Pilot 1 	| 08 Oct 24 14:47 EEST
+	Riga -> Liepāja 	| Airplane 3 	| Pilot 9 	| 08 Oct 24 16:47 EEST
+	Liepāja -> Riga 	| Airplane 3 	| Pilot 5 	| 08 Oct 24 20:47 EEST
+	Riga -> Liepāja 	| Airplane 3 	| Pilot 10 	| 09 Oct 24 00:47 EEST
+	Liepāja -> Daugavpils 	| Airplane 3 	| Pilot 10 	| 09 Oct 24 04:47 EEST
+	Daugavpils -> Liepāja 	| Airplane 3 	| Pilot 1 	| 09 Oct 24 06:47 EEST
+	Liepāja -> Riga 	| Airplane 3 	| Pilot 4 	| 09 Oct 24 22:47 EEST
+	Riga -> Liepāja 	| Airplane 3 	| Pilot 7 	| 10 Oct 24 02:47 EEST
+	Liepāja -> Daugavpils 	| Airplane 3 	| Pilot 4 	| 10 Oct 24 18:47 EEST
+Airplane: Airplane 4
+	Liepāja -> Riga 	| Airplane 4 	| Pilot 10 	| 09 Oct 24 02:47 EEST
+	Riga -> Liepāja 	| Airplane 4 	| Pilot 10 	| 10 Oct 24 00:47 EEST
+	Liepāja -> Daugavpils 	| Airplane 4 	| Pilot 10 	| 10 Oct 24 16:47 EEST
+	Daugavpils -> Liepāja 	| Airplane 4 	| Pilot 7 	| 10 Oct 24 22:47 EEST
+Initial Conflicts: 4521
+
+Optimized Flights:
+Pilot: Pilot 1
+	 Riga -> Liepāja 	| Airplane 3 	| 08 Oct 24 12:47 EEST
+	 Liepāja -> Riga 	| Airplane 4 	| 09 Oct 24 02:47 EEST
+	 Liepāja -> Riga 	| Airplane 2 	| 09 Oct 24 12:47 EEST
+Pilot: Pilot 2
+Pilot: Pilot 3
+	 Riga -> Liepāja 	| Airplane 3 	| 08 Oct 24 16:47 EEST
+	 Riga -> Ventspils 	| Airplane 2 	| 09 Oct 24 18:47 EEST
+Pilot: Pilot 4
+	 Liepāja -> Riga 	| Airplane 3 	| 08 Oct 24 14:47 EEST
+	 Riga -> Daugavpils 	| Airplane 1 	| 09 Oct 24 08:47 EEST
+	 Daugavpils -> Liepāja 	| Airplane 1 	| 09 Oct 24 10:47 EEST
+	 Liepāja -> Daugavpils 	| Airplane 1 	| 09 Oct 24 20:47 EEST
+	 Daugavpils -> Liepāja 	| Airplane 1 	| 10 Oct 24 06:47 EEST
+	 Liepāja -> Daugavpils 	| Airplane 3 	| 10 Oct 24 18:47 EEST
+Pilot: Pilot 5
+	 Liepāja -> Riga 	| Airplane 1 	| 08 Oct 24 22:47 EEST
+	 Liepāja -> Daugavpils 	| Airplane 4 	| 10 Oct 24 16:47 EEST
+Pilot: Pilot 6
+Pilot: Pilot 7
+	 Riga -> Liepāja 	| Airplane 4 	| 10 Oct 24 00:47 EEST
+	 Liepāja -> Riga 	| Airplane 2 	| 10 Oct 24 20:47 EEST
+Pilot: Pilot 8
+	 Jelgava -> Liepāja 	| Airplane 1 	| 09 Oct 24 16:47 EEST
+	 Liepāja -> Jelgava 	| Airplane 1 	| 10 Oct 24 08:47 EEST
+Pilot: Pilot 9
+	 Riga -> Liepāja 	| Airplane 1 	| 08 Oct 24 18:47 EEST
+	 Liepāja -> Jelgava 	| Airplane 1 	| 09 Oct 24 14:47 EEST
+	 Liepāja -> Riga 	| Airplane 3 	| 09 Oct 24 22:47 EEST
+	 Riga -> Liepāja 	| Airplane 3 	| 10 Oct 24 02:47 EEST
+	 Jelgava -> Daugavpils 	| Airplane 1 	| 10 Oct 24 12:47 EEST
+	 Daugavpils -> Liepāja 	| Airplane 4 	| 10 Oct 24 22:47 EEST
+Pilot: Pilot 10
+	 Liepāja -> Riga 	| Airplane 3 	| 08 Oct 24 20:47 EEST
+	 Riga -> Liepāja 	| Airplane 3 	| 09 Oct 24 00:47 EEST
+	 Liepāja -> Daugavpils 	| Airplane 3 	| 09 Oct 24 04:47 EEST
+	 Daugavpils -> Liepāja 	| Airplane 3 	| 09 Oct 24 06:47 EEST
+	 Ventspils -> Liepāja 	| Airplane 2 	| 10 Oct 24 04:47 EEST
+	 Liepāja -> Ventspils 	| Airplane 2 	| 10 Oct 24 10:47 EEST
+	 Ventspils -> Liepāja 	| Airplane 2 	| 10 Oct 24 14:47 EEST
+TabuSearch execution time: 2.0771789s
+Optimized Conflicts: 2641
